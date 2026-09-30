@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Vein']
+
+roboflow:
+  workspace: ahmaad-tamjid-s-workspace
+  project: vein-qz7rm-yoprg
+  version: 1
+  license: CC BY 4.0
+  url: https://app.roboflow.com/ahmaad-tamjid-s-workspace/vein-qz7rm-yoprg/1
